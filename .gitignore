@@ -1,0 +1,17 @@
+# Build output
+bin/
+obj/
+artifacts/
+dist/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+TestResults/
+
+# Never commit Albion game data or savegames
+SAVE.*
+*.gog
+*.ins
+XLDLIBS/

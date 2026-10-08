@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Partial port of AlbLib (https://github.com/IS4Code/AlbLib, MIT, see LICENSE in this folder)
+    to modern .NET. Only the namespaces needed by the save editor are included:
+    SaveGame, XLD, Texts (core), Items, Caching and the path helpers.
+    Imaging / Mapping / Sounds / Scripting / IFF / INI / repositories were left out.
+    Changes vs. upstream are marked with "PORT:" comments.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>AlbLib</RootNamespace>
+    <AssemblyName>AlbLib.Core</AssemblyName>
+    <!-- legacy code: obsolete serialization attrs, missing XML docs, unused fields, etc. -->
+    <NoWarn>$(NoWarn);CS0659;CS0660;CS0661;CS0169;CS0414;CS0649;CS1591;CS1573;CS0675;CS8073;SYSLIB0011;SYSLIB0050;CA2022</NoWarn>
+  </PropertyGroup>
+
+</Project>

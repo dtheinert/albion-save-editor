@@ -1,0 +1,1008 @@
+{
+  "enums": {
+    "type": {
+      "flags": false,
+      "values": [
+        {
+          "name": "Character",
+          "value": 0
+        },
+        {
+          "name": "NPC",
+          "value": 1
+        },
+        {
+          "name": "Monster",
+          "value": 2
+        }
+      ]
+    },
+    "gender": {
+      "flags": false,
+      "values": [
+        {
+          "name": "Man",
+          "value": 0
+        },
+        {
+          "name": "Woman",
+          "value": 1
+        },
+        {
+          "name": "Creature",
+          "value": 2
+        }
+      ]
+    },
+    "race": {
+      "flags": false,
+      "values": [
+        {
+          "name": "Terran",
+          "value": 0
+        },
+        {
+          "name": "Iskai",
+          "value": 1
+        },
+        {
+          "name": "Celt",
+          "value": 2
+        },
+        {
+          "name": "KengetKamulos",
+          "value": 3
+        },
+        {
+          "name": "DjiCantos",
+          "value": 4
+        },
+        {
+          "name": "Mahino",
+          "value": 5
+        },
+        {
+          "name": "Decadent",
+          "value": 6
+        },
+        {
+          "name": "Umajo",
+          "value": 7
+        },
+        {
+          "name": "Monster",
+          "value": 14
+        }
+      ]
+    },
+    "class": {
+      "flags": false,
+      "values": [
+        {
+          "name": "Pilot",
+          "value": 0
+        },
+        {
+          "name": "Scientist",
+          "value": 1
+        },
+        {
+          "name": "IskaiWarrior",
+          "value": 2
+        },
+        {
+          "name": "DjiKasMage",
+          "value": 3
+        },
+        {
+          "name": "Druid",
+          "value": 4
+        },
+        {
+          "name": "EnlightenedOne",
+          "value": 5
+        },
+        {
+          "name": "Technician",
+          "value": 6
+        },
+        {
+          "name": "OquloKamulos",
+          "value": 8
+        },
+        {
+          "name": "HumanWarrior",
+          "value": 9
+        },
+        {
+          "name": "Monster",
+          "value": 31
+        }
+      ]
+    },
+    "magic": {
+      "flags": true,
+      "values": [
+        {
+          "name": "None",
+          "value": 0
+        },
+        {
+          "name": "DjiKas",
+          "value": 1
+        },
+        {
+          "name": "EnlightenedOne",
+          "value": 2
+        },
+        {
+          "name": "Druidic",
+          "value": 4
+        },
+        {
+          "name": "OquloKamulos",
+          "value": 8
+        },
+        {
+          "name": "Demonic",
+          "value": 32
+        }
+      ]
+    },
+    "language": {
+      "flags": true,
+      "values": [
+        {
+          "name": "None",
+          "value": 0
+        },
+        {
+          "name": "Terran",
+          "value": 1
+        },
+        {
+          "name": "Iskai",
+          "value": 2
+        },
+        {
+          "name": "Celtic",
+          "value": 4
+        }
+      ]
+    },
+    "conditions": {
+      "flags": true,
+      "values": [
+        {
+          "name": "Panicking",
+          "value": 1
+        },
+        {
+          "name": "Asleep",
+          "value": 2
+        },
+        {
+          "name": "Insane",
+          "value": 4
+        },
+        {
+          "name": "Irritated",
+          "value": 8
+        },
+        {
+          "name": "Unconscious",
+          "value": 256
+        },
+        {
+          "name": "Poisoned",
+          "value": 512
+        },
+        {
+          "name": "Ill",
+          "value": 1024
+        },
+        {
+          "name": "Exhausted",
+          "value": 2048
+        },
+        {
+          "name": "Paralyzed",
+          "value": 4096
+        },
+        {
+          "name": "Fleeing",
+          "value": 8192
+        },
+        {
+          "name": "Intoxicated",
+          "value": 16384
+        },
+        {
+          "name": "Blind",
+          "value": 32768
+        }
+      ]
+    },
+    "itemFlags": {
+      "flags": true,
+      "values": [
+        {
+          "name": "None",
+          "value": 0
+        },
+        {
+          "name": "ShowMoreInfo",
+          "value": 1
+        },
+        {
+          "name": "Broken",
+          "value": 2
+        },
+        {
+          "name": "Cursed",
+          "value": 4
+        }
+      ]
+    }
+  },
+  "limits": {
+    "days": {
+      "min": 0,
+      "max": 32767
+    },
+    "hours": {
+      "min": 0,
+      "max": 23
+    },
+    "minutes": {
+      "min": 0,
+      "max": 59
+    },
+    "mapId": {
+      "min": 0,
+      "max": 32767
+    },
+    "partyX": {
+      "min": 0,
+      "max": 32767
+    },
+    "partyY": {
+      "min": 0,
+      "max": 32767
+    },
+    "stackMax": 99,
+    "level": {
+      "min": 0,
+      "max": 255
+    },
+    "actionPoints": {
+      "min": 0,
+      "max": 255
+    },
+    "appearance": {
+      "min": 0,
+      "max": 255
+    },
+    "face": {
+      "min": 0,
+      "max": 255
+    },
+    "inventoryPicture": {
+      "min": 0,
+      "max": 255
+    },
+    "trainingPoints": {
+      "min": 0,
+      "max": 32767
+    },
+    "gold": {
+      "min": 0,
+      "max": 6553.5,
+      "step": 0.1
+    },
+    "rations": {
+      "min": 0,
+      "max": 32767
+    },
+    "morale": {
+      "min": 0,
+      "max": 100
+    },
+    "experience": {
+      "min": 0,
+      "max": 2147483647
+    },
+    "lifePoints.max": {
+      "min": 0,
+      "max": 32767
+    },
+    "spellPoints.max": {
+      "min": 0,
+      "max": 32767
+    },
+    "lifePoints": {
+      "min": 0,
+      "max": 32767
+    },
+    "spellPoints": {
+      "min": 0,
+      "max": 32767
+    },
+    "attributes.max": {
+      "min": 0,
+      "max": 99
+    },
+    "skills.max": {
+      "min": 0,
+      "max": 99
+    },
+    "age.max": {
+      "min": 0,
+      "max": 100
+    },
+    "attributes": {
+      "min": 0,
+      "max": 32767
+    },
+    "skills": {
+      "min": 0,
+      "max": 32767
+    },
+    "age": {
+      "min": 0,
+      "max": 32767
+    },
+    "itemId": {
+      "min": 0,
+      "max": 32767
+    },
+    "count": {
+      "min": 0,
+      "max": 255
+    },
+    "charges": {
+      "min": 0,
+      "max": 255
+    },
+    "enchantment": {
+      "min": 0,
+      "max": 255
+    },
+    "spells.strength": {
+      "min": 0,
+      "max": 32767
+    },
+    "name": {
+      "maxLength": 15
+    },
+    "nameSlot2": {
+      "maxLength": 15
+    },
+    "nameSlot3": {
+      "maxLength": 15
+    },
+    "header.name": {
+      "maxLength": 255
+    }
+  },
+  "readOnly": [
+    "eventSetId",
+    "wordSetId",
+    "baseDefense",
+    "bonusDefense",
+    "baseAttack",
+    "bonusAttack",
+    "levelsPerActionPoint",
+    "lifePointsPerLevel",
+    "spellPointsPerLevel",
+    "trainingPointsPerLevel"
+  ],
+  "rules": [
+    {
+      "type": "currentLeMax"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Knife",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 2,
+      "name": "Dagger",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 3,
+      "name": "Short sword",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 4,
+      "name": "Long sword",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 5,
+      "name": "Iskai sword",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 6,
+      "name": "Club",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 7,
+      "name": "Staff",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 8,
+      "name": "Spear",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 9,
+      "name": "Sling",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "LongRangeWeapon"
+    },
+    {
+      "id": 10,
+      "name": "Sling stones",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "Ammo"
+    },
+    {
+      "id": 11,
+      "name": "Crossbow",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "LongRangeWeapon"
+    },
+    {
+      "id": 12,
+      "name": "Bolts",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "Ammo"
+    },
+    {
+      "id": 13,
+      "name": "Bow",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "LongRangeWeapon"
+    },
+    {
+      "id": 14,
+      "name": "Arrows",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "Ammo"
+    },
+    {
+      "id": 15,
+      "name": "Laser pistol",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 30,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "LongRangeWeapon"
+    },
+    {
+      "id": 16,
+      "name": "Leather cap",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Head",
+      "class": "Armor"
+    },
+    {
+      "id": 17,
+      "name": "Iron helmet",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Head",
+      "class": "Armor"
+    },
+    {
+      "id": 18,
+      "name": "Leather armour",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Chest",
+      "class": "Armor"
+    },
+    {
+      "id": 19,
+      "name": "Chain mail",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Chest",
+      "class": "Armor"
+    },
+    {
+      "id": 20,
+      "name": "Iskai armour",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Chest",
+      "class": "Armor"
+    },
+    {
+      "id": 21,
+      "name": "Small shield",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "LeftHand",
+      "class": "Shield"
+    },
+    {
+      "id": 22,
+      "name": "Large shield",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "LeftHand",
+      "class": "Shield"
+    },
+    {
+      "id": 23,
+      "name": "Leather boots",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Feet",
+      "class": "Boots"
+    },
+    {
+      "id": 24,
+      "name": "Sandals",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Feet",
+      "class": "Boots"
+    },
+    {
+      "id": 25,
+      "name": "Amulet of protection",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 2,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Neck",
+      "class": "Ring"
+    },
+    {
+      "id": 26,
+      "name": "Ring of strength",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 2,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightFinger",
+      "class": "Ring"
+    },
+    {
+      "id": 27,
+      "name": "Copper ring",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": true,
+      "slot": "RightFinger",
+      "class": "Ring"
+    },
+    {
+      "id": 28,
+      "name": "Tail ring",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Tail",
+      "class": "Ring"
+    },
+    {
+      "id": 29,
+      "name": "Torch",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 30,
+      "name": "Lock pick",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 31,
+      "name": "Rope",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 32,
+      "name": "Healing potion",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 33,
+      "name": "Antidote",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 34,
+      "name": "Rations pack",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 35,
+      "name": "Bottle of water",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 36,
+      "name": "Communicator",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": true,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 37,
+      "name": "Pocket computer",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 5,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 38,
+      "name": "Flint and steel",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 39,
+      "name": "Compass",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 40,
+      "name": "Map of Nakiridaani",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 41,
+      "name": "Toronto ID card",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": true,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 42,
+      "name": "Strange key",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": true,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 43,
+      "name": "Triifalai seed",
+      "stackable": true,
+      "maxCount": 99,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": true,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 44,
+      "name": "Dji-Kas scroll",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 1,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 45,
+      "name": "Blue crystal",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 46,
+      "name": "Sword of Arjano",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 1,
+      "plotItem": true,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "CloseRangeWeapon"
+    },
+    {
+      "id": 47,
+      "name": "Wand of fire",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 20,
+      "maxEnchantments": 3,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "RightHand",
+      "class": "Misc"
+    },
+    {
+      "id": 48,
+      "name": "Magic gloves",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 49,
+      "name": "Swim belt",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    },
+    {
+      "id": 50,
+      "name": "Lantern",
+      "stackable": false,
+      "maxCount": 1,
+      "maxCharges": 0,
+      "maxEnchantments": 0,
+      "plotItem": false,
+      "cursed": false,
+      "slot": "Inventory",
+      "class": "Misc"
+    }
+  ],
+  "gameDataConfigured": false
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Albion Save Editor</title>
+  <meta name="description" content="Load an Albion (1995) savegame, edit your party and download the modified save.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 4 8v8c0 7 5 12 12 14 7-2 12-7 12-14V8z' fill='%23b8862e'/%3E%3Cpath d='M16 8v16M10 14h12' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 4 8v8c0 7 5 12 12 14 7-2 12-7 12-14V8z"/><path class="brand-cross" d="M16 8v16M10 14h12"/></svg>
+      <span class="brand-name">Albion <span>Save Editor</span></span>
+    </div>
+    <span id="mode-badge" class="mode-badge" hidden></span>
+    <div id="top-actions" class="top-actions" hidden>
+      <span id="file-label" class="file-label"></span>
+      <button id="btn-open-other" type="button" class="btn ghost">Open another save</button>
+      <button id="btn-download" type="button" class="btn primary big" aria-describedby="backup-hint">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></svg>
+        Download modified save
+      </button>
+    </div>
+  </header>
+  <p id="backup-hint" class="backup-strip" hidden>
+    Before replacing your save in <code>ALBION\SAVES\</code>, keep a copy of the original file somewhere safe.
+  </p>
+
+  <main id="app" tabindex="-1">
+    <p class="loading">Loading…</p>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="slot-dialog" class="dialog" aria-labelledby="slot-dialog-title"></dialog>
+  <dialog id="confirm-dialog" class="dialog small" aria-labelledby="confirm-title"></dialog>
+  <dialog id="about-dialog" class="dialog small" aria-labelledby="about-title"></dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

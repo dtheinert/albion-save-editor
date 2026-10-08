@@ -1,0 +1,1844 @@
+{
+  "index": 0,
+  "empty": false,
+  "name": "Tom",
+  "type": "Character",
+  "gender": "Man",
+  "race": "Terran",
+  "class": "Pilot",
+  "magic": [
+    "None"
+  ],
+  "language": [
+    "Terran"
+  ],
+  "level": 3,
+  "actionPoints": 2,
+  "appearance": 0,
+  "face": 1,
+  "inventoryPicture": 1,
+  "trainingPoints": 10,
+  "gold": 12.5,
+  "rations": 20,
+  "conditions": [],
+  "experience": 1234,
+  "lifePoints": {
+    "current": 30,
+    "max": 34
+  },
+  "spellPoints": {
+    "current": 0,
+    "max": 0
+  },
+  "attributes": {
+    "strength": {
+      "current": 42,
+      "max": 60
+    },
+    "intelligence": {
+      "current": 38,
+      "max": 55
+    },
+    "dexterity": {
+      "current": 45,
+      "max": 65
+    },
+    "speed": {
+      "current": 40,
+      "max": 60
+    },
+    "stamina": {
+      "current": 35,
+      "max": 60
+    },
+    "luck": {
+      "current": 30,
+      "max": 50
+    },
+    "magicResistance": {
+      "current": 5,
+      "max": 20
+    },
+    "magicTalent": {
+      "current": 0,
+      "max": 0
+    }
+  },
+  "skills": {
+    "closeCombat": {
+      "current": 25,
+      "max": 70
+    },
+    "rangedCombat": {
+      "current": 35,
+      "max": 80
+    },
+    "criticalChance": {
+      "current": 3,
+      "max": 10
+    },
+    "lockpicking": {
+      "current": 10,
+      "max": 50
+    }
+  },
+  "spells": [
+    {
+      "school": 0,
+      "id": 0,
+      "name": "Healing",
+      "known": true,
+      "strength": 100
+    },
+    {
+      "school": 0,
+      "id": 1,
+      "name": "Cure poison",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 2,
+      "name": "Remove curse",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 3,
+      "name": "Light",
+      "known": true,
+      "strength": 175
+    },
+    {
+      "school": 0,
+      "id": 4,
+      "name": "Thorn snare",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 5,
+      "name": "Small fireball",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 6,
+      "name": "Frost crystal",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 7,
+      "name": "Lightning strike",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 8,
+      "name": "Map view",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 9,
+      "name": "Recharge",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 10,
+      "name": "Strength boost",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 11,
+      "name": "Sleep",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 0,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 0,
+      "name": "Heal party",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 1,
+      "name": "Holy shield",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 2,
+      "name": "Banish",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 3,
+      "name": "Clairvoyance",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 4,
+      "name": "Wake up",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 5,
+      "name": "Calm",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 6,
+      "name": "Protection",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 7,
+      "name": "Teleport",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 8,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 9,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 10,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 11,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 1,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 0,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 1,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 2,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 3,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 4,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 5,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 6,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 7,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 8,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 9,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 10,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 11,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 2,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 0,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 1,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 2,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 3,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 4,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 5,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 6,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 7,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 8,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 9,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 10,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 11,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 3,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 0,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 1,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 2,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 3,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 4,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 5,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 6,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 7,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 8,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 9,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 10,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 11,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 4,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 0,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 1,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 2,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 3,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 4,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 5,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 6,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 7,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 8,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 9,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 10,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 11,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 5,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 0,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 1,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 2,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 3,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 4,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 5,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 6,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 7,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 8,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 9,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 10,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 11,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 12,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 13,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 14,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 15,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 16,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 17,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 18,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 19,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 20,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 21,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 22,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 23,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 24,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 25,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 26,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 27,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 28,
+      "name": "",
+      "known": false,
+      "strength": 0
+    },
+    {
+      "school": 6,
+      "id": 29,
+      "name": "",
+      "known": false,
+      "strength": 0
+    }
+  ],
+  "equipment": {
+    "neck": {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "head": {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "tail": {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "rightHand": {
+      "itemId": 15,
+      "itemName": "Laser pistol",
+      "count": 1,
+      "charges": 12,
+      "enchantment": 0,
+      "flags": []
+    },
+    "chest": {
+      "itemId": 18,
+      "itemName": "Leather armour",
+      "count": 1,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "leftHand": {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "rightFinger": {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "feet": {
+      "itemId": 23,
+      "itemName": "Leather boots",
+      "count": 1,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    "leftFinger": {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    }
+  },
+  "backpack": [
+    {
+      "itemId": 29,
+      "itemName": "Torch",
+      "count": 3,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 32,
+      "itemName": "Healing potion",
+      "count": 2,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 36,
+      "itemName": "Communicator",
+      "count": 1,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 41,
+      "itemName": "Toronto ID card",
+      "count": 1,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 35,
+      "itemName": "Bottle of water",
+      "count": 1,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 34,
+      "itemName": "Rations pack",
+      "count": 5,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 30,
+      "itemName": "Lock pick",
+      "count": 2,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 14,
+      "itemName": "Arrows",
+      "count": 19,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    },
+    {
+      "itemId": 0,
+      "itemName": "",
+      "count": 0,
+      "charges": 0,
+      "enchantment": 0,
+      "flags": []
+    }
+  ],
+  "age": {
+    "current": 34,
+    "max": 72
+  },
+  "morale": 80,
+  "other": {
+    "nameSlot2": "Tom",
+    "nameSlot3": "Tom",
+    "eventSetId": 1,
+    "wordSetId": 1,
+    "baseDefense": 2,
+    "bonusDefense": 4,
+    "baseAttack": 1,
+    "bonusAttack": 8,
+    "levelsPerActionPoint": 5,
+    "lifePointsPerLevel": 4,
+    "spellPointsPerLevel": 0,
+    "trainingPointsPerLevel": 10
+  }
+}
